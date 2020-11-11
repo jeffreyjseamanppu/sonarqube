@@ -47,6 +47,16 @@ The only prerequisite of running SonarQube is to have Java (Oracle JRE 8 or Open
     ```
     `For e.g.: ~/Documents/software/sonarqube-6.7.5/bin/macosx-universal-64 $ ./sonar.sh --start`
 
+## Set Variables
+   If you're using a mac, go to the directory where the source code is stored via CLI and paste the following in the terminal
+   Make sure you adjust your directory path accordingly. 
+   - The first file is from your SonarQube SDK that you installed initially
+   - The second one is the downloaded SDK directory found at: https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/ (4.5) Environment (Mac OS x 64 bit)
+      ```
+      export PATH=$PATH:~/Documents/bin/macosx-universal-64
+      export PATH=$PATH:~/Documents/Apps/sonar-scanner-/bin
+      ```
+
 ## Run the sonar-scanner
     Got to root directory of your project folder where you have created the `sonar-projects.properties` file and run the below command:
     ```
