@@ -68,7 +68,7 @@ The only prerequisite of running SonarQube is to have Java (Oracle JRE 8 or Open
     - Click on the `Edit the system environment variables`.
     - Click on `Enviornment Variables`.
     - Look for `Path` environment variable.
-    - Add the `sonar-scanner` path. For e.g. C:\Users\vikash\Documents\softwares\sonar-scanner-4.5.0.2216-windows\bin
+    - Add the `sonar-scanner` path. For e.g. C:\Users\username\Documents\softwares\sonar-scanner-4.5.0.2216-windows\bin
     - In addition if you want to add the `sonar-server` as well then follow the same steps as above. For e.g. C:\Users\vikash\Documents\softwares\sonarqube-8.5.0.37579\bin\windows-x86-64
 
     In Mac - bash: sonar-scanner: unknownd command
