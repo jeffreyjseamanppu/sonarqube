@@ -100,4 +100,3 @@ The only prerequisite of running SonarQube is to have Java (Oracle JRE 8 or Open
     - Re-reun the `sonar-scanner` command from the path where `sonar-project.properties` file is defined/added. This generates the analysis report.
     - Navigate to the `sonarqube` dashboard you should see the `coverage` statistics.
 
-For any additional help, please write me to the `servikash@gmail.com`. I would be happy to help you!
